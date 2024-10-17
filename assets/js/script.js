@@ -69,10 +69,9 @@ function calculateCorrectAnswer() {
     let operator = document.getElementById("operator").innerText;
     if (operator === "+") {
         return [operand1 + operand2, "addition"];
-    else {
+    } else {
         alert(`Unimplemented operator ${operator}`);
-        throw `Unimplemented operator ${operator}.Aborting!`;
-    }
+        throw `Unimplemented operator ${operator}. Aborting!`;
     }
 }
 
